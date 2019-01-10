@@ -1,11 +1,11 @@
 {
   "name": "tree-custom-react",
   "private": false,
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "",
   "author": "Amroo Salout",
   "license": "MIT",
-  "repository": "https://github.com/asalout/tree-react.git",
+  "repository": "https://github.com/DigitalCloud/tree-react",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
