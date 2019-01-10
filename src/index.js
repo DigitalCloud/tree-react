@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-
-import styles from './styles.css'
+import PropTypes from 'prop-types'
 
 export default class TreeComponent extends Component {
   static propTypes = {
-    text: ''
+    text: PropTypes.string
   }
 
   render() {
@@ -13,7 +12,7 @@ export default class TreeComponent extends Component {
     } = this.props
 
     return (
-      <div className={styles.test}>
+      <div>
         {text}
       </div>
     )
