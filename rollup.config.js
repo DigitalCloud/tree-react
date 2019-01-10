@@ -13,7 +13,8 @@ export default {
   output: [
     {
       file: pkg.main,
-      format: 'cjs',
+      name: 'TreeReact',
+      format: 'umd', // cjs
       sourcemap: true
     },
     {
