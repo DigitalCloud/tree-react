@@ -18,7 +18,7 @@ export default {
     },
     {
       file: pkg.module,
-      format: 'umd', // es
+      format: 'es', // es
       sourcemap: true
     }
   ],
